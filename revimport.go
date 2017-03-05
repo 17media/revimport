@@ -15,7 +15,7 @@ var (
 	pkgsStr = flag.String("pkgs", "", "a list of packages to be propagated, separated by comma.")
 	layers  = flag.String("layers", "one", "prints \"one\" layer of reverse imported packages, "+
 		"or propagate to \"all\" effected files.")
-	omitStr = flag.String("omit", "htc.com/csi/deprecated", "a list of skip folder's term. We should skip the checking "+
+	omitStr = flag.String("omit", "", "a list of skip folder's term. We should skip the checking "+
 		"path when these terms appear in the test.")
 )
 
